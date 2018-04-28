@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: url('../imagen/tline.jpg');
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.navegacion{
+	width:950px;
+	margin: 30px auto;
+	background: brown;
+}
+.navegacion ul{
+	list-style: none;
+}
+
+.menu >li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu >li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+
+.menu li a:hover { 
+	color: #ce7d35;
+	transition: all.3s
+
+}
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	text-decoration:none;
+	
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+.red{
+	float: right;
+	margin: 410px 5px 120px 10px;
+
+}
+iframe{
+	margin: 45px;
+	border:5px;
+	width:900px;
+	height: 700px;
+}
+
+
+header{
+	position: sticky;
+}
+
+
+ div:hover {transform: translate(100px); 	
+	width:1000px;
+	height: 400px;
+
+ }
+
